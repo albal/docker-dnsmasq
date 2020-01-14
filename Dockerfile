@@ -1,4 +1,4 @@
-FROM alpine:edge
+FROM arm32v7/alpine:edge
 LABEL maintainer="al@tsew.net"
 # webproc release settings
 ENV WEBPROC_VERSION 0.2.2
